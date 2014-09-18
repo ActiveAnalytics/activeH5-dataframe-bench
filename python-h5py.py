@@ -49,6 +49,7 @@ toc = tt.time()
 
 print toc - tic
 
+# Writing the data
 tic = tt.time()
 dat = h5_obj['dat']
 toc = tt.time()
