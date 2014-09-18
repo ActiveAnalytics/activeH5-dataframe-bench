@@ -16,7 +16,7 @@ import pandas as pd
 import h5py as h5
 import time as tt
 
-# Creat the file
+# Create the file
 h5_file = "air_py.h5"
 tic = tt.time()
 h5_obj = pd.HDFStore(h5_file)
